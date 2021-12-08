@@ -144,7 +144,7 @@ proxy-groups:
       - 台湾 8 | ChinaG
       - 台湾 9 | ChinaG
       - 台湾 10 | ChinaG
-      - 台湾 11 | ChinaG
+##    - 台湾 11 | ChinaG
       - 台湾 12 | ChinaG
       - 香港 | T加速
       - 新加坡 1 | T加速
