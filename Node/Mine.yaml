@@ -28,15 +28,16 @@ proxies:
   - { name: 台湾 11 | ChinaG, server: yqy2336.china-cdn-net.com, port: 2336, type: vmess, uuid: 7626036c-4e62-3b3f-8ef6-12904afdf830, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /iso, ws-headers: {Host: yqy2336.china-cdn-net.com}}
   - { name: 台湾 12 | ChinaG, server: yqy2337.china-cdn-net.com, port: 2337, type: vmess, uuid: 7626036c-4e62-3b3f-8ef6-12904afdf830, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /iso, ws-headers: {Host: yqy2337.china-cdn-net.com}}
   - { name: 香港 | T加速, server: v1.369855.xyz, port: 11443, type: vmess, uuid: 7f13c34d-90bb-4d4b-b83b-d760f8b71372, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/shop, ws-headers: {Host: hkv2-1.ddns.tjiasu.xyz} }
-  - { name: 新加坡 1 | T加速, server: v1.369855.xyz, port: 11443, type: vmess, uuid: 7f13c34d-90bb-4d4b-b83b-d760f8b71372, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/sg, ws-headers: {Host: sgav2.ddns.tjiasu.xyz} }
-  - { name: 新加坡 2 | T加速, server: v1.369855.xyz, port: 11443, type: vmess, uuid: 7f13c34d-90bb-4d4b-b83b-d760f8b71372, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/pianist, ws-headers: {Host: pianist.ddns.tjiasu.xyz} }
-  - { name: 新加坡 3 | T加速, server: 104.248.151.45, port: 11126, type: vmess, uuid: 7f13c34d-90bb-4d4b-b83b-d760f8b71372, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /api/ddns, ws-headers: {Host: 104.248.151.45} }
-  - { name: 新加坡 4 | QiDian, type: trojan, server: zn.freev2r.xyz, port: 22097, password: 741f1653-a334-4b32-890b-da2355399d53, udp: true, sni: nt2.freev2r.xyz, skip-cert-verify: true }
-  - { name: 新加坡 5 | QiDian, type: trojan, server: zn.freev2r.xyz, port: 28080, password: 741f1653-a334-4b32-890b-da2355399d53, udp: true, sni: nt4.freev2r.xyz, skip-cert-verify: true }
-  - { name: 新加坡 6 | QiDian, type: trojan, server: zn.freev2r.xyz, port: 21520, password: 741f1653-a334-4b32-890b-da2355399d53, udp: true, sni: nt5.freev2r.xyz, skip-cert-verify: true }
-  - { name: 新加坡 7 | QiDian, type: vmess, server: zn.freev2r.xyz, port: 22222, uuid: 741f1653-a334-4b32-890b-da2355399d53, alterId: 1, cipher: auto, udp: true, network: ws, ws-path: /, ws-headers: { Host: pull.free.video.10010.com } }
-  - { name: 新加坡 8 | QiDian, type: vmess, server: zn.freev2r.xyz, port: 22622, uuid: 741f1653-a334-4b32-890b-da2355399d53, alterId: 1, cipher: auto, udp: true, network: ws, ws-path: /, ws-headers: { Host: a.189.cn } }
-  - { name: 新加坡 9 | QiDian, type: vmess, server: zn.freev2r.xyz, port: 22446, uuid: 741f1653-a334-4b32-890b-da2355399d53, alterId: 1, cipher: auto, udp: true, network: ws, ws-path: /, ws-headers: { Host: pull.free.video.10010.com } }
+  - { name: 狮城 1 | T加速, server: v1.369855.xyz, port: 11443, type: vmess, uuid: 7f13c34d-90bb-4d4b-b83b-d760f8b71372, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/sg, ws-headers: {Host: sgav2.ddns.tjiasu.xyz} }
+  - { name: 狮城 2 | T加速, server: v1.369855.xyz, port: 11443, type: vmess, uuid: 7f13c34d-90bb-4d4b-b83b-d760f8b71372, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/pianist, ws-headers: {Host: pianist.ddns.tjiasu.xyz} }
+  - { name: 狮城 3 | T加速, server: 104.248.151.45, port: 11126, type: vmess, uuid: 7f13c34d-90bb-4d4b-b83b-d760f8b71372, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /api/ddns, ws-headers: {Host: 104.248.151.45} }
+  - { name: 狮城 4 | QiDian, type: trojan, server: zn.freev2r.xyz, port: 22097, password: 741f1653-a334-4b32-890b-da2355399d53, udp: true, sni: nt2.freev2r.xyz, skip-cert-verify: true }
+  - { name: 狮城 5 | QiDian, type: trojan, server: zn.freev2r.xyz, port: 28080, password: 741f1653-a334-4b32-890b-da2355399d53, udp: true, sni: nt4.freev2r.xyz, skip-cert-verify: true }
+  - { name: 狮城 6 | QiDian, type: trojan, server: zn.freev2r.xyz, port: 21520, password: 741f1653-a334-4b32-890b-da2355399d53, udp: true, sni: nt5.freev2r.xyz, skip-cert-verify: true }
+  - { name: 狮城 7 | QiDian, type: vmess, server: zn.freev2r.xyz, port: 22222, uuid: 741f1653-a334-4b32-890b-da2355399d53, alterId: 1, cipher: auto, udp: true, network: ws, ws-path: /, ws-headers: { Host: pull.free.video.10010.com } }
+  - { name: 狮城 8 | QiDian, type: vmess, server: zn.freev2r.xyz, port: 22622, uuid: 741f1653-a334-4b32-890b-da2355399d53, alterId: 1, cipher: auto, udp: true, network: ws, ws-path: /, ws-headers: { Host: a.189.cn } }
+  - { name: 狮城 9 | QiDian, type: vmess, server: zn.freev2r.xyz, port: 22446, uuid: 741f1653-a334-4b32-890b-da2355399d53, alterId: 1, cipher: auto, udp: true, network: ws, ws-path: /, ws-headers: { Host: pull.free.video.10010.com } }
+  - { name: 狮城10 | QiDian, type: ss, server: zn.freev2r.xyz, port: 22422, cipher: chacha20-ietf-poly1305, password: 741f1653-a334-4b32-890b-da2355399d53, udp: true }
   - { name: 美国 1 | T加速, server: v1.369855.xyz, port: 11443, type: vmess, uuid: 7f13c34d-90bb-4d4b-b83b-d760f8b71372, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/common, ws-headers: {Host: usav2.ddns.tjiasu.xyz} }
   - { name: 美国 2 | T加速, server: v1.369855.xyz, port: 11443, type: vmess, uuid: 7f13c34d-90bb-4d4b-b83b-d760f8b71372, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/rn, ws-headers: {Host: usbv2.ddns.tjiasu.xyz} }
   - { name: 美国 3 | T加速, server: v1.369855.xyz, port: 11443, type: vmess, uuid: 7f13c34d-90bb-4d4b-b83b-d760f8b71372, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /api/shop, ws-headers: {Host: shopv3.ddns.tjiasu.xyz} }
@@ -61,7 +62,6 @@ proxies:
   - { name: 加拿大 1 | QiDian, type: ss, server: mf.freev2r.xyz, port: 52021, cipher: chacha20-ietf-poly1305, password: 741f1653-a334-4b32-890b-da2355399d53, udp: true }
   - { name: 加拿大 2 | QiDian, type: trojan, server: zn.freev2r.xyz, port: 22088, password: 741f1653-a334-4b32-890b-da2355399d53, udp: true, sni: nt1.freev2r.xyz, skip-cert-verify: true }
   - { name: 俄罗斯 | Galaxy, type: vmess, server: 194.87.70.224, port: 443, uuid: 55d3ac3e-ce10-4888-82d6-971a1bdc4a02, alterId: 1, cipher: auto, udp: true, tls: true, network: ws, ws-path: /8ayCOQbXPdM, ws-headers: { Host: jr.5599.buzz } }
-  - { name: 未知 | QiDian, type: ss, server: zn.freev2r.xyz, port: 22422, cipher: chacha20-ietf-poly1305, password: 741f1653-a334-4b32-890b-da2355399d53, udp: true }
 proxy-groups:
   - name:  🕊 自由之翼
     type: select
@@ -94,15 +94,16 @@ proxy-groups:
       - 台湾 11 | ChinaG
       - 台湾 12 | ChinaG
       - 香港 | T加速
-      - 新加坡 1 | T加速
-      - 新加坡 2 | T加速
-      - 新加坡 3 | T加速
-      - 新加坡 4 | QiDian
-      - 新加坡 5 | QiDian
-      - 新加坡 6 | QiDian
-      - 新加坡 7 | QiDian
-      - 新加坡 8 | QiDian
-      - 新加坡 9 | QiDian
+      - 狮城 1 | T加速
+      - 狮城 2 | T加速
+      - 狮城 3 | T加速
+      - 狮城 4 | QiDian
+      - 狮城 5 | QiDian
+      - 狮城 6 | QiDian
+      - 狮城 7 | QiDian
+      - 狮城 8 | QiDian
+      - 狮城 9 | QiDian
+      - 狮城10 | QiDian
       - 美国 1 | T加速
       - 美国 2 | T加速
       - 美国 3 | T加速
@@ -127,7 +128,6 @@ proxy-groups:
       - 加拿大 1 | QiDian
       - 加拿大 2 | QiDian
       - 俄罗斯 | Galaxy
-      - 未知 | QiDian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -147,15 +147,16 @@ proxy-groups:
       - 台湾 11 | ChinaG
       - 台湾 12 | ChinaG
       - 香港 | T加速
-      - 新加坡 1 | T加速
-      - 新加坡 2 | T加速
-      - 新加坡 3 | T加速
-      - 新加坡 4 | QiDian
-      - 新加坡 5 | QiDian
-      - 新加坡 6 | QiDian
-      - 新加坡 7 | QiDian
-      - 新加坡 8 | QiDian
-      - 新加坡 9 | QiDian
+      - 狮城 1 | T加速
+      - 狮城 2 | T加速
+      - 狮城 3 | T加速
+      - 狮城 4 | QiDian
+      - 狮城 5 | QiDian
+      - 狮城 6 | QiDian
+      - 狮城 7 | QiDian
+      - 狮城 8 | QiDian
+      - 狮城 9 | QiDian
+      - 狮城10 | QiDian
       - 美国 1 | T加速
       - 美国 2 | T加速
       - 美国 3 | T加速
@@ -180,7 +181,6 @@ proxy-groups:
       - 加拿大 1 | QiDian
       - 加拿大 2 | QiDian
       - 俄罗斯 | Galaxy
-      - 未知 | QiDian
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -200,15 +200,16 @@ proxy-groups:
       - 台湾 11 | ChinaG
       - 台湾 12 | ChinaG
       - 香港 | T加速
-      - 新加坡 1 | T加速
-      - 新加坡 2 | T加速
-      - 新加坡 3 | T加速
-      - 新加坡 4 | QiDian
-      - 新加坡 5 | QiDian
-      - 新加坡 6 | QiDian
-      - 新加坡 7 | QiDian
-      - 新加坡 8 | QiDian
-      - 新加坡 9 | QiDian
+      - 狮城 1 | T加速
+      - 狮城 2 | T加速
+      - 狮城 3 | T加速
+      - 狮城 4 | QiDian
+      - 狮城 5 | QiDian
+      - 狮城 6 | QiDian
+      - 狮城 7 | QiDian
+      - 狮城 8 | QiDian
+      - 狮城 9 | QiDian
+      - 狮城10 | QiDian
       - 美国 1 | T加速
       - 美国 2 | T加速
       - 美国 3 | T加速
@@ -233,7 +234,6 @@ proxy-groups:
       - 加拿大 1 | QiDian
       - 加拿大 2 | QiDian
       - 俄罗斯 | Galaxy
-      - 未知 | QiDian
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -253,15 +253,16 @@ proxy-groups:
       - 台湾 11 | ChinaG
       - 台湾 12 | ChinaG
       - 香港 | T加速
-      - 新加坡 1 | T加速
-      - 新加坡 2 | T加速
-      - 新加坡 3 | T加速
-      - 新加坡 4 | QiDian
-      - 新加坡 5 | QiDian
-      - 新加坡 6 | QiDian
-      - 新加坡 7 | QiDian
-      - 新加坡 8 | QiDian
-      - 新加坡 9 | QiDian
+      - 狮城 1 | T加速
+      - 狮城 2 | T加速
+      - 狮城 3 | T加速
+      - 狮城 4 | QiDian
+      - 狮城 5 | QiDian
+      - 狮城 6 | QiDian
+      - 狮城 7 | QiDian
+      - 狮城 8 | QiDian
+      - 狮城 9 | QiDian
+      - 狮城10 | QiDian
       - 美国 1 | T加速
       - 美国 2 | T加速
       - 美国 3 | T加速
@@ -286,7 +287,6 @@ proxy-groups:
       - 加拿大 1 | QiDian
       - 加拿大 2 | QiDian
       - 俄罗斯 | Galaxy
-      - 未知 | QiDian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -355,9 +355,16 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 新加坡 1 | T加速
-      - 新加坡 2 | T加速
-      - 新加坡 3 | T加速
+      - 狮城 1 | T加速
+      - 狮城 2 | T加速
+      - 狮城 3 | T加速
+      - 狮城 4 | QiDian
+      - 狮城 5 | QiDian
+      - 狮城 6 | QiDian
+      - 狮城 7 | QiDian
+      - 狮城 8 | QiDian
+      - 狮城 9 | QiDian
+      - 狮城10 | QiDian
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
